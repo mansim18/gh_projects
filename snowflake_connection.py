@@ -1,8 +1,8 @@
 import snowflake.connector
 con = snowflake.connector.connect(
-    user='',
-    password='',
-    account=''
+    user=username,
+    password=your_account_password,
+    account=your_account_name
 )
 print('---connected to database-----')
 
